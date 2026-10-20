@@ -1,0 +1,8 @@
+{
+  "name": "Portal de Documentos Rurais",
+  "description": "Portal seguro para consulta e download direto de documentos de propriedades rurais por proprietários e produtores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "users": [
+    {
+      "id": "admin_1",
+      "name": "Equipe Técnica Meyer Engenharia",
+      "email": "admin@meyerengenharia.com.br",
+      "phone": "(63) 3213-1121",
+      "role": "admin",
+      "active": true,
+      "notes": "Administrador central de arquivos técnicos e regularização fundiária - Meyer Engenharia",
+      "salt": "7451ff729800d0d6cdff3f04dd9e7cbf",
+      "passwordHash": "fd0226b0e82d5618b76423a35f762dc2a05025233717aa5c66d0f6fc95a872949faaa7d3a31ad492b0e809bb031441564e140e8eae79c40f8657b17e67161661",
+      "createdAt": "2026-01-10T08:00:00Z"
+    },
+    {
+      "id": "client_1",
+      "name": "José Eduardo Silveira",
+      "email": "jose.silveira@fazendasaopedro.com.br",
+      "phone": "(16) 99842-1205",
+      "role": "client",
+      "active": true,
+      "notes": "Proprietário de terras no interior de SP (Cravinhos e Ribeirão Preto)",
+      "salt": "a739c56da3af103af43c6714a10c550b",
+      "passwordHash": "7e0131522365edba0d01160026d0b4450f802e74185262680aba1d61b0ac7eb0e5be1ced0248cc399884a9537dbc0e6b5867fc69e1da47b46c2ff4deed997827",
+      "createdAt": "2026-02-15T09:30:00Z"
+    },
+    {
+      "id": "client_2",
+      "name": "Ana Maria de Albuquerque",
+      "email": "anamaria.terras@gmail.com",
+      "phone": "(62) 99124-7733",
+      "role": "client",
+      "active": true,
+      "notes": "Produtora rural na região de Rio Verde - GO",
+      "salt": "48b0b7680ef51da6d18793132ccb8c76",
+      "passwordHash": "7cbef0150026029d917bbd452de21ed6a5f228b593e0d1d5a46c9bf36d5712ff1d63f9766ef26578e386a3b8c6d680501ca9a4971c43c49b24d10df7ebee2c41",
+      "createdAt": "2026-03-01T14:00:00Z"
+    },
+    {
+      "id": "client_3",
+      "name": "Carlos Henrique Prado",
+      "email": "carlos.prado@agroeste.com.br",
+      "phone": "(67) 98412-5566",
+      "role": "client",
+      "active": true,
+      "notes": "Novo cliente cadastrado - documentos em fase de triagem",
+      "salt": "420262e3dc743aaf998e27d0d3258a11",
+      "passwordHash": "6796811d98ad059516a42ade0a9856c239c3b86b8c85918e873cf4f5217679a0411a4da88a488ffcda303904c3f3b9a7ad11face17da46325b4fc66dd629f295",
+      "createdAt": "2026-04-12T11:20:00Z"
+    }
+  ],
+  "properties": [
+    {
+      "id": "prop_1",
+      "name": "Fazenda São Pedro",
+      "clientId": "client_1",
+      "municipality": "Ribeirão Preto",
+      "state": "SP",
+      "carNumber": "SP-3543402-E938F48C8B1C4B82A82939D8C12A3490",
+      "areaHa": 840,
+      "nirf": "4.821.903-2",
+      "incraCode": "950.082.114.390-1",
+      "notes": "Cultura de cana-de-açúcar e preservação permanente com nascentes protegidas",
+      "createdAt": "2026-02-15T09:35:00Z"
+    },
+    {
+      "id": "prop_2",
+      "name": "Gleba Boa Vista",
+      "clientId": "client_1",
+      "municipality": "Cravinhos",
+      "state": "SP",
+      "carNumber": "SP-3513108-A4839B7C1298442E8B991F2447A22189",
+      "areaHa": 160,
+      "nirf": "3.119.840-7",
+      "incraCode": "950.082.008.120-9",
+      "notes": "Área com reserva legal averbada e matrícula individualizada",
+      "createdAt": "2026-02-15T09:40:00Z"
+    },
+    {
+      "id": "prop_3",
+      "name": "Estância Recanto Verde",
+      "clientId": "client_2",
+      "municipality": "Rio Verde",
+      "state": "GO",
+      "carNumber": "GO-5218805-4B812C9F8A1237D2883491823901B824",
+      "areaHa": 1250,
+      "nirf": "7.942.100-5",
+      "incraCode": "921.144.529.011-4",
+      "notes": "Área de grãos (soja e milho safrinha) com pivô central",
+      "createdAt": "2026-03-01T14:10:00Z"
+    },
+    {
+      "id": "prop_4",
+      "name": "Fazenda Vale do Sol",
+      "clientId": "client_3",
+      "municipality": "Dourados",
+      "state": "MS",
+      "carNumber": "MS-5003702-88F9A1B2C3D4E5F6A7B8C9D0E1F2A3B4",
+      "areaHa": 420,
+      "nirf": "5.620.311-9",
+      "incraCode": "915.220.891.400-3",
+      "notes": "Propriedade recém-integrada ao sistema",
+      "createdAt": "2026-04-12T11:25:00Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_1",
+      "clientId": "client_1",
+      "propertyId": "prop_1",
+      "propertyName": "Fazenda São Pedro",
+      "title": "Certidão de Inscrição no CAR - Cadastro Ambiental Rural",
+      "filename": "CAR_Fazenda_Sao_Pedro_2026.pdf",
+      "fileType": "PDF",
+      "mimeType": "application/pdf",
+      "fileSizeBytes": 2562,
+      "fileSizeFormatted": "2.5 KB",
+      "availableDate": "15/03/2026",
+      "storagePath": "/app/applet/storage/documents/CAR_Fazenda_Sao_Pedro_2026.pdf",
+      "description": "Recibo oficial emitido pela Secretaria de Meio Ambiente e Infraestrutura",
+      "createdAt": "2026-03-15T10:00:00Z",
+      "updatedAt": "2026-03-15T10:00:00Z"
+    },
+    {
+      "id": "doc_2",
+      "clientId": "client_1",
+      "propertyId": "prop_1",
+      "propertyName": "Fazenda São Pedro",
+      "title": "CCIR 2024 - Certificado de Cadastro de Imóvel Rural (INCRA)",
+      "filename": "CCIR_2024_Fazenda_Sao_Pedro_INCRA.pdf",
+      "fileType": "PDF",
+      "mimeType": "application/pdf",
+      "fileSizeBytes": 2570,
+      "fileSizeFormatted": "2.5 KB",
+      "availableDate": "02/02/2026",
+      "storagePath": "/app/applet/storage/documents/CCIR_2024_Fazenda_Sao_Pedro_INCRA.pdf",
+      "description": "Certificado de quitação de taxa cadastral emitido pelo INCRA",
+      "createdAt": "2026-03-15T10:00:00Z",
+      "updatedAt": "2026-03-15T10:00:00Z"
+    },
+    {
+      "id": "doc_3",
+      "clientId": "client_1",
+      "propertyId": "prop_1",
+      "propertyName": "Fazenda São Pedro",
+      "title": "Recibo de Entrega da Declaração do ITR 2024",
+      "filename": "Recibo_ITR_2024_Fazenda_Sao_Pedro.pdf",
+      "fileType": "PDF",
+      "mimeType": "application/pdf",
+      "fileSizeBytes": 2550,
+      "fileSizeFormatted": "2.5 KB",
+      "availableDate": "25/09/2025",
+      "storagePath": "/app/applet/storage/documents/Recibo_ITR_2024_Fazenda_Sao_Pedro.pdf",
+      "description": "Comprovante oficial de entrega da Declaração do ITR junto à Receita Federal",
+      "createdAt": "2026-03-15T10:00:00Z",
+      "updatedAt": "2026-03-15T10:00:00Z"
+    },
+    {
+      "id": "doc_4",
+      "clientId": "client_1",
+      "propertyId": "prop_1",
+      "propertyName": "Fazenda São Pedro",
+      "title": "Certidão Negativa de Débitos da Receita Federal e PGFN",
+      "filename": "CND_Receita_Federal_Fazenda_Sao_Pedro.pdf",
+      "fileType": "PDF",
+      "mimeType": "application/pdf",
+      "fileSizeBytes": 2559,
+      "fileSizeFormatted": "2.5 KB",
+      "availableDate": "06/04/2026",
+      "storagePath": "/app/applet/storage/documents/CND_Receita_Federal_Fazenda_Sao_Pedro.pdf",
+      "description": "Certidão de regularidade fiscal relativa a tributos federais e dívida ativa da união",
+      "createdAt": "2026-03-15T10:00:00Z",
+      "updatedAt": "2026-03-15T10:00:00Z"
+    },
+    {
+      "id": "doc_5",
+      "clientId": "client_1",
+      "propertyId": "prop_2",
+      "propertyName": "Gleba Boa Vista",
+      "title": "Matrícula Imobiliária Atualizada nº 48.912 - Registro de Imóveis",
+      "filename": "Matricula_48912_Gleba_Boa_Vista.pdf",
+      "fileType": "PDF",
+      "mimeType": "application/pdf",
+      "fileSizeBytes": 2569,
+      "fileSizeFormatted": "2.5 KB",
+      "availableDate": "11/02/2026",
+      "storagePath": "/app/applet/storage/documents/Matricula_48912_Gleba_Boa_Vista.pdf",
+      "description": "Certidão de inteiro teor com ônus reais e ações reipersecutórias",
+      "createdAt": "2026-03-15T10:00:00Z",
+      "updatedAt": "2026-03-15T10:00:00Z"
+    },
+    {
+      "id": "doc_6",
+      "clientId": "client_1",
+      "propertyId": "prop_1",
+      "propertyName": "Fazenda São Pedro",
+      "title": "Planta Topográfica e Memorial Descritivo - Georreferenciamento SIGEF",
+      "filename": "Memorial_Georreferenciamento_SIGEF.pdf",
+      "fileType": "PDF",
+      "mimeType": "application/pdf",
+      "fileSizeBytes": 2581,
+      "fileSizeFormatted": "2.5 KB",
+      "availableDate": "20/11/2025",
+      "storagePath": "/app/applet/storage/documents/Memorial_Georreferenciamento_SIGEF.pdf",
+      "description": "Certificação de georreferenciamento de imóvel rural aprovada pelo INCRA",
+      "createdAt": "2026-03-15T10:00:00Z",
+      "updatedAt": "2026-03-15T10:00:00Z"
+    },
+    {
+      "id": "doc_7",
+      "clientId": "client_2",
+      "propertyId": "prop_3",
+      "propertyName": "Estância Recanto Verde",
+      "title": "CAR - Cadastro Ambiental Rural Oficial",
+      "filename": "CAR_Estancia_Recanto_Verde_GO.pdf",
+      "fileType": "PDF",
+      "mimeType": "application/pdf",
+      "fileSizeBytes": 2555,
+      "fileSizeFormatted": "2.5 KB",
+      "availableDate": "15/01/2026",
+      "storagePath": "/app/applet/storage/documents/CAR_Estancia_Recanto_Verde_GO.pdf",
+      "description": "Inscrição homologada no Sistema Integrado de Meio Ambiente",
+      "createdAt": "2026-03-15T10:00:00Z",
+      "updatedAt": "2026-03-15T10:00:00Z"
+    },
+    {
+      "id": "doc_8",
+      "clientId": "client_2",
+      "propertyId": "prop_3",
+      "propertyName": "Estância Recanto Verde",
+      "title": "CCIR 2024 Quitante INCRA",
+      "filename": "CCIR_2024_Recanto_Verde_INCRA.pdf",
+      "fileType": "PDF",
+      "mimeType": "application/pdf",
+      "fileSizeBytes": 2541,
+      "fileSizeFormatted": "2.5 KB",
+      "availableDate": "04/02/2026",
+      "storagePath": "/app/applet/storage/documents/CCIR_2024_Recanto_Verde_INCRA.pdf",
+      "description": "Certificado de cadastro rural com área total e módulo fiscal",
+      "createdAt": "2026-03-15T10:00:00Z",
+      "updatedAt": "2026-03-15T10:00:00Z"
+    }
+  ],
+  "downloadLogs": [
+    {
+      "id": "log_1792501362725_f8f3s",
+      "documentId": "doc_1",
+      "documentTitle": "Certidão de Inscrição no CAR - Cadastro Ambiental Rural",
+      "clientId": "client_1",
+      "clientName": "José Eduardo Silveira",
+      "userRole": "client",
+      "downloadedAt": "2026-10-20T13:02:42.725Z",
+      "ipAddress": "127.0.0.1",
+      "device": "node"
+    },
+    {
+      "id": "log_seed_1",
+      "documentId": "doc_1",
+      "documentTitle": "Certidão de Inscrição no CAR - Cadastro Ambiental Rural",
+      "clientId": "client_1",
+      "clientName": "José Eduardo Silveira",
+      "userRole": "client",
+      "downloadedAt": "2026-03-16T14:22:10Z",
+      "ipAddress": "177.18.92.40",
+      "device": "Chrome Mobile / Android (Galaxy S23)"
+    },
+    {
+      "id": "log_seed_2",
+      "documentId": "doc_2",
+      "documentTitle": "CCIR 2024 - Certificado de Cadastro de Imóvel Rural (INCRA)",
+      "clientId": "client_1",
+      "clientName": "José Eduardo Silveira",
+      "userRole": "client",
+      "downloadedAt": "2026-03-20T10:05:42Z",
+      "ipAddress": "177.18.92.40",
+      "device": "Safari / iPhone iOS 17"
+    }
+  ],
+  "resetTokens": [],
+  "sessions": [
+    {
+      "token": "d6ebd3e592a07bf42ded969f082c4f0465daa86c9e0630e5a589a75ddfcc9153",
+      "userId": "admin_1",
+      "createdAt": "2026-10-20T13:02:42.686Z"
+    },
+    {
+      "token": "4a6338ee2a7f846db100b905e8e8ba6d6d56a1df0c0393f35fa617d4d81ed187",
+      "userId": "client_1",
+      "createdAt": "2026-10-20T13:02:42.713Z"
+    },
+    {
+      "token": "8039f409883c8616d0dc500dc7d5efe782f2901797e2e9def2db46065410819c",
+      "userId": "client_1",
+      "createdAt": "2026-10-20T13:08:46.588Z"
+    },
+    {
+      "token": "92250642cd47e5c7d8af64ac19c93e1315e3c115ead25e77efe0e96b257f68d2",
+      "userId": "admin_1",
+      "createdAt": "2026-10-20T13:08:46.607Z"
+    }
+  ]
+}

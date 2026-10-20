@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Nunito Sans', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Official Meyer Engenharia Palette */
+  --color-meyer-primary: #2E3ED3;
+  --color-meyer-light: #4F8FF8;
+  --color-meyer-dark: #020417;
+  --color-meyer-secondary: #4c97bb;
+  --color-meyer-darkgrey: #343a40;
+  --color-meyer-grey: #5c5c5c;
+  --color-meyer-bg: #f8faff;
+  --color-meyer-surface: #ffffff;
+}
+
+body {
+  font-family: 'Nunito Sans', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f8faff;
+  color: #1e293b;
+  -webkit-tap-highlight-color: transparent;
+}
